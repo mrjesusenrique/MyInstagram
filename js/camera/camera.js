@@ -1,5 +1,7 @@
-document
-  .querySelector("#button-capture-image")
-  .addEventListener("click", () => {
+const fileInput = document.querySelector("#file-input");
+
+fileInput.addEventListener("change", () => {
+  if (fileInput.files.length > 0) {
     window.location.href = "camera.html";
-  });
+  }
+});
