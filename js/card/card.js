@@ -11,13 +11,15 @@ const cardReel = (reel) => {
   card.innerHTML = `
     <div class="flex flex-col justify-center w-full p-5">
       <div class="text-gray-900 py-3"><p>myusername</p></div>
-      <img src="${imagen}" class="w-full" alt="${titulo}" />
-      <div class="flex flex-row justify-between mt-3">
-        <div>
-          <h5 class="text-gray-900 font-bold" >${titulo}</h5>
-        </div>
-        <div>
-          <p class="text-gray-500">${fecha}</p>
+      <div class="flex flex-col">
+        <img class="w-full" src="${imagen}" alt="${titulo}" />
+        <div class="flex flex-row justify-between mt-6">
+          <div>
+            <h5 class="text-gray-900 font-bold" >${titulo}</h5>
+          </div>
+          <div>
+            <p class="text-gray-500">${fecha}</p>
+          </div>
         </div>
       </div>
     </div>
