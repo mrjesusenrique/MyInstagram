@@ -1,4 +1,5 @@
 import { getReels } from "../api/api.js";
+const profile = '../../assets/icons/usuario.png';
 
 const cardContainer = document.querySelector("#section-container");
 
@@ -10,7 +11,10 @@ const cardReel = (reel) => {
 
   card.innerHTML = `
     <div class="flex flex-col justify-center w-full p-5">
-      <div class="text-gray-900 py-3"><p>myusername</p></div>
+      <div class="flex flex-row text-gray-900 py-3 items-center">
+        <img class="w-8 h-8" src="${profile}" alt="profile"/>
+        <p class="ml-3">myusername</p>
+      </div>
       <div class="flex flex-col">
         <img class="w-full" src="${imagen}" alt="${titulo}" />
         <div class="flex flex-row justify-between mt-6">
