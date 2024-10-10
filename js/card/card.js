@@ -1,5 +1,5 @@
 import { getReels } from "../api/api.js";
-const profile = '../../assets/icons/usuario.png';
+const profile = 'assets/icons/usuario.png';
 
 const cardContainer = document.querySelector("#section-container");
 
