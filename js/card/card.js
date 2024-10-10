@@ -28,14 +28,19 @@ const cardReel = (reel) => {
 };
 
 export const createCardReels = () => {
+  const spinner = document.querySelector("#spinner");
+  spinner.style.display = "flex";
+
   getReels()
     .then((reels) => {
+      spinner.style.display = "none";
       reels.forEach((reel) => {
         const cardElement = cardReel(reel);
         cardContainer.appendChild(cardElement);
       });
     })
     .catch((error) => {
+      spinner.style.display = "none";
       console.warn(`Error al obtener los reels ${error}`);
     });
 };
