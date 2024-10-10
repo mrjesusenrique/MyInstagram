@@ -14,7 +14,7 @@
     <h1 id="header-title" class="flex justify-center p-3 w-[90%] border-b-[1px] border-gray-500">MyInstagram</h1>
   </header>
   <main class="flex justify-center">
-    <section id="section-container" class="flex flex-col justify-center w-full">
+    <section id="section-container" class="flex flex-col justify-center w-full pb-16">
       <div id="spinner" class="w-full flex justify-center mt-5">
         <div class="spinner-model"></div>
       </div>
@@ -22,7 +22,7 @@
   </main>
   <footer class="fixed bottom-0 left-0 right-0 bg-white shadow-lg">
     <div class="flex justify-center items-center h-16">
-      <button class="w-12 h-12 bg-blue-500 text-white rounded-full flex justify-center items-center">
+      <button id="button-capture-image" class="w-12 h-12 bg-blue-500 text-white rounded-full flex justify-center items-center hover:bg-blue-600 transition duration-300 ease-in-out">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
           class="w-6 h-6">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
@@ -31,6 +31,7 @@
     </div>
   </footer>
   <script src="./js/index.js" type="module"></script>
+  <script src="./js/camera/camera.js" type="module"></script>
 </body>
 
 </html>

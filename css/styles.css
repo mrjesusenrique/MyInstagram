@@ -16,7 +16,6 @@ body {
   height: 36px;
   border-radius: 50%;
   border-left-color: rgb(59 130 246);
-
   animation: spin 1s ease infinite;
 }
 

@@ -16,7 +16,7 @@ const cardReel = (reel) => {
         <p class="ml-3">myusername</p>
       </div>
       <div class="flex flex-col">
-        <img class="w-full" src="${imagen}" alt="${titulo}" />
+        <img class="w-full h-[15rem]" src="${imagen}" alt="${titulo}" />
         <div class="flex flex-row justify-between mt-6">
           <div>
             <h5 class="text-gray-900 font-bold" >${titulo}</h5>
