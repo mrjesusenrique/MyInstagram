@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/compressorjs@1.1.1/dist/compressor.min.js"></script>
   <title>MyInstagram</title>
 </head>
 
@@ -23,15 +24,16 @@
   <footer class="fixed bottom-0 left-0 right-0 bg-white shadow-lg">
     <div class="flex justify-center items-center h-16">
       <input id="file-input" type="file" accept="image/*" capture="camera" class="hidden" />
-      <label for="file-input" class="w-12 h-12 bg-blue-500 text-white rounded-full flex justify-center items-center hover:bg-blue-600 transition duration-300 ease-in-out cursor-pointer">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+      <label for="file-input"
+        class="w-12 h-12 bg-blue-500 text-white rounded-full flex justify-center items-center hover:bg-blue-600 transition duration-300 ease-in-out cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+          class="w-6 h-6">
           <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
         </svg>
       </label>
     </div>
   </footer>
   <script src="./js/index.js" type="module"></script>
-  <script src="./js/camera/camera.js" type="module"></script>
 </body>
 
 </html>
