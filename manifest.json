@@ -1,0 +1,25 @@
+{
+  "short_name": "MyInsta",
+  "name": "MyInstagram",
+  "version": "1.0.0",
+  "description": "¡Una aplicación web para subir y compartir tus mejores fotos!",
+  "start_url": "index.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "id": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#4CAF50",
+  "icons": [
+    {
+      "src": "assets/icons/camera.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/usuario.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
