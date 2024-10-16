@@ -1,9 +1,20 @@
 import { createCardReels } from "./card/card.js";
+import updateFileInputState from "./utils/disabledButton.js";
 
 createCardReels();
 
 window.addEventListener("load", () => {
   const fileInput = document.querySelector("#file-input");
+
+  updateFileInputState();
+
+  window.addEventListener("offline", () => {
+    updateFileInputState();
+  });
+
+  window.addEventListener("online", () => {
+    updateFileInputState();
+  });
 
   fileInput.addEventListener("change", () => {
     if (fileInput.files.length > 0) {
