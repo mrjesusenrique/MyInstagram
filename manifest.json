@@ -9,7 +9,7 @@
   "orientation": "portrait",
   "id": "/",
   "background_color": "#ffffff",
-  "theme_color": "#4CAF50",
+  "theme_color": "#3b82f6",
   "icons": [
     {
       "src": "assets/icons/camera.png",
