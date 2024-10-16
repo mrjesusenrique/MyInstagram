@@ -23,8 +23,11 @@ window.addEventListener("load", () => {
   const imageElement = document.querySelector("img");
   imageElement.src = base64Image;
 
+  const spinner = document.querySelector("#spinner");
+
   document.querySelector("#reelForm").addEventListener("submit", async (e) => {
     e.preventDefault();
+    spinner.classList.remove("hidden");
 
     const imageTitle = document.querySelector("#input-text").value;
     const currentDate = getCurrentDate();
@@ -63,6 +66,9 @@ window.addEventListener("load", () => {
         }).then(() => {
           window.location.href = "index.html";
         });
+      })
+      .finally(() => {
+        spinner.classList.add("hidden");
       });
   });
 });
