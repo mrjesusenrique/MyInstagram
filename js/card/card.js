@@ -1,5 +1,5 @@
 import { getReels } from "../api/api.js";
-const profile = 'assets/icons/usuario.png';
+const profile = "assets/icons/usuario.png";
 
 const cardContainer = document.querySelector("#section-container");
 
@@ -8,6 +8,7 @@ const cardReel = (reel) => {
 
   const card = document.createElement("article");
   card.setAttribute("key", id);
+  card.classList.add("w-96", "self-center");
 
   card.innerHTML = `
     <div class="flex flex-col justify-center w-full p-5">
