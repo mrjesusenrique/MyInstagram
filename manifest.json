@@ -1,0 +1,41 @@
+{
+  "short_name": "MyInsta",
+  "name": "MyInstagram",
+  "version": "1.0.0",
+  "description": "¡Una aplicación para subir y compartir tus mejores fotos!",
+  "start_url": "/MyInstagram/",
+  "scope": "/MyInstagram/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "id": "/MyInstagram/",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "assets/icons/camara.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/usuario.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/screenshots/screenshot_1.png",
+      "sizes": "445x915",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "assets/screenshots/screenshot_2.png",
+      "sizes": "445x906",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}

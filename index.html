@@ -4,16 +4,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="manifest" href="manifest.json">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/compressorjs@1.1.1/dist/compressor.min.js"></script>
   <title>MyInstagram</title>
 </head>
 
 <body>
-  <main>
-    <h1>MyInstagram</h1>
-    <section></section>
+  <header class="flex justify-center">
+    <h1 id="header-title" class="flex justify-center p-3 w-[90%] border-b-[1px] border-gray-500">MyInstagram</h1>
+  </header>
+  <main class="flex justify-center">
+    <section id="section-container" class="flex flex-col justify-center w-full pb-16">
+      <div id="spinner" class="w-full flex justify-center mt-5">
+        <div class="spinner-model"></div>
+      </div>
+    </section>
   </main>
+  <footer class="fixed bottom-0 left-0 right-0 bg-white shadow-lg">
+    <div class="flex justify-center items-center h-16">
+      <input id="file-input" type="file" accept="image/*" capture="camera" class="hidden" />
+      <label for="file-input"
+        class="w-12 h-12 bg-blue-500 text-white rounded-full flex justify-center items-center hover:bg-blue-600 transition duration-300 ease-in-out cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+          class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+        </svg>
+      </label>
+    </div>
+  </footer>
+  <script src="./js/index.js" type="module"></script>
 </body>
-
 
 </html>
