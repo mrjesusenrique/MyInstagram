@@ -13,13 +13,13 @@
   "icons": [
     {
       "src": "assets/icons/camera.png",
-      "sizes": "140x140",
+      "sizes": "600x600",
       "type": "image/png",
       "purpose": "any"
     },
     {
       "src": "assets/icons/usuario.png",
-      "sizes": "140x140",
+      "sizes": "600x600",
       "type": "image/png",
       "purpose": "any"
     }
