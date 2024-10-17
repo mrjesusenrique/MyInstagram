@@ -12,7 +12,7 @@
   "theme_color": "#3b82f6",
   "icons": [
     {
-      "src": "assets/icons/camera.png",
+      "src": "assets/icons/camara.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
