@@ -1,6 +1,6 @@
 export const getReels = async () => {
   const URL =
-    "https://6707d80a8e86a8d9e42d284d.mockapi.io/myinstagram/api/v1/reels";
+    "https://6707d80a8e86a8d9e42d284d.mockapi.io/istea/api/v1/reels";
 
   try {
     const response = await fetch(URL, {
